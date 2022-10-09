@@ -20,15 +20,27 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Column(
+          backgroundColor: Colors.white,
+          title: Row(
+            // mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [
-              Icon(Icons.camera_alt),
+              Icon(
+                Icons.camera_alt,
+                color: Colors.black,
+              ),
+              SizedBox(width: 8),
               Text(
                 'instagram',
                 style: TextStyle(
                   fontFamily: 'PassionsConflict',
-                  fontSize: 32,
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
                 ),
+              ),
+              Icon(
+                Icons.chat,
+                color: Colors.black,
               ),
             ],
           ),
