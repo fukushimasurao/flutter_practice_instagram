@@ -33,5 +33,10 @@ samples, guidance on mobile development, and a full API reference.
         - asset: fonts/PassionsConflict-Regular.ttf
 '''
 
-
 あとは個別に設定。※全体一括変更もできるらしいが、今回はタイトルだけ。
+
+## 配置をしたい
+
+instagramの[ロゴ＋instagram]は左に、通話は右にしたいけどどうやればいいかわからん。
+ここらへんか？
+<https://zenn.dev/pressedkonbu/articles/stack-and-align>
