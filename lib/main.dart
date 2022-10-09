@@ -20,6 +20,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          bottom: PreferredSize(
+              preferredSize: const Size.fromHeight(1),
+              child: Container(
+                height: 1,
+                color: const Color.fromARGB(255, 194, 194, 194),
+              )),
+          elevation: 0.0,
           backgroundColor: Colors.white,
           title: Row(
             // mainAxisAlignment: MainAxisAlignment.spaceBetween,
