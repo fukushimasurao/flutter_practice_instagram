@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
               Text(
                 'instagram',
                 style: TextStyle(
-                  fontWeight: FontWeight.bold, // 文字を太く
-                  fontSize: 16, // 文字サイズを変更
+                  fontFamily: 'PassionsConflict',
+                  fontSize: 32,
                 ),
               ),
             ],

@@ -14,3 +14,24 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+---
+
+# 以下、個人的なメモ(基本は殴り書き)
+
+## フォントファミリーを変える
+
+<https://b1san-blog.com/post/flutter/flutter-text/>
+
+'mkdir fonts'してttfをこのfontsディレクトリに格納
+'pubspec.yaml'に追記
+
+'''yaml
+  fonts:
+    - family:PassionsConflict
+      fonts:
+        - asset: fonts/PassionsConflict-Regular.ttf
+'''
+
+
+あとは個別に設定。※全体一括変更もできるらしいが、今回はタイトルだけ。
