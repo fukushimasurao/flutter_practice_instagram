@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                   //   height: 100,
                   // ),
                   Container(
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage(
                           'assets/images/dora016.png',
@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
                     width: 100,
                     height: 100,
                   ),
-                  const Text('test1'),
+                  const Text('ユーザー１'),
                 ],
               ),
 
@@ -87,7 +87,7 @@ class MyApp extends StatelessWidget {
                     width: 100,
                     height: 100,
                   ),
-                  const Text('test2'),
+                  const Text('ユーザー２'),
                 ],
               ),
 
@@ -98,7 +98,7 @@ class MyApp extends StatelessWidget {
                     width: 100,
                     height: 100,
                   ),
-                  const Text('test3'),
+                  const Text('ユーザー3'),
                 ],
               ),
 
@@ -109,7 +109,7 @@ class MyApp extends StatelessWidget {
                     width: 100,
                     height: 100,
                   ),
-                  const Text('test4'),
+                  const Text('ユーザー4'),
                 ],
               ),
 
@@ -120,7 +120,7 @@ class MyApp extends StatelessWidget {
                     width: 100,
                     height: 100,
                   ),
-                  const Text('test5'),
+                  const Text('ユーザー5'),
                 ],
               ),
 
@@ -131,7 +131,7 @@ class MyApp extends StatelessWidget {
                     width: 100,
                     height: 100,
                   ),
-                  const Text('test6'),
+                  const Text('ユーザー6'),
                 ],
               ),
             ],
