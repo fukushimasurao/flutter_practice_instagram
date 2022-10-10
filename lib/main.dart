@@ -52,12 +52,90 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
-        body: Row(
-          // children プロパティに Text のリストを与えます。
-          children: const [
-            Text('こんぶ @ Flutter大学'),
-            Text('2022/05/05'),
-          ],
+        body: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            // children プロパティに Text のリストを与えます。
+            children: [
+              // const Text('2022/05/05'),
+              Column(
+                children: [
+                  // Image.asset(
+                  //   'assets/images/dora018.png',
+                  //   width: 100,
+                  //   height: 100,
+                  // ),
+                  Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage(
+                          'assets/images/dora016.png',
+                        ),
+                      ),
+                    ),
+                    width: 100,
+                    height: 100,
+                  ),
+                  const Text('test1'),
+                ],
+              ),
+
+              Column(
+                children: [
+                  Image.asset(
+                    'assets/images/dora017.png',
+                    width: 100,
+                    height: 100,
+                  ),
+                  const Text('test2'),
+                ],
+              ),
+
+              Column(
+                children: [
+                  Image.asset(
+                    'assets/images/dora016.png',
+                    width: 100,
+                    height: 100,
+                  ),
+                  const Text('test3'),
+                ],
+              ),
+
+              Column(
+                children: [
+                  Image.asset(
+                    'assets/images/dora015.png',
+                    width: 100,
+                    height: 100,
+                  ),
+                  const Text('test4'),
+                ],
+              ),
+
+              Column(
+                children: [
+                  Image.asset(
+                    'assets/images/dora014.png',
+                    width: 100,
+                    height: 100,
+                  ),
+                  const Text('test5'),
+                ],
+              ),
+
+              Column(
+                children: [
+                  Image.asset(
+                    'assets/images/dora013.png',
+                    width: 100,
+                    height: 100,
+                  ),
+                  const Text('test6'),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );

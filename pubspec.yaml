@@ -55,6 +55,7 @@ flutter:
   fonts:
     - family: PassionsConflict
       fonts:
-        - asset: fonts/PassionsConflict-Regular.ttf
-
+        - asset: assets/fonts/PassionsConflict-Regular.ttf
+  assets:
+    - assets/images/
   uses-material-design: true

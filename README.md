@@ -40,3 +40,8 @@ samples, guidance on mobile development, and a full API reference.
 instagramの[ロゴ＋instagram]は左に、通話は右にしたいけどどうやればいいかわからん。
 ここらへんか？
 <https://zenn.dev/pressedkonbu/articles/stack-and-align>
+
+
+## 画像を描く
+
+pubspec.yaml
