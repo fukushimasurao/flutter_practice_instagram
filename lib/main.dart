@@ -45,12 +45,14 @@ class MyApp extends StatelessWidget {
                   color: Colors.black,
                 ),
               ),
-              Icon(
-                Icons.chat,
-                color: Colors.black,
-              ),
             ],
           ),
+          actions: const [
+            Icon(
+              Icons.chat,
+              color: Colors.black,
+            ),
+          ],
         ),
         body: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
@@ -136,6 +138,7 @@ class MyApp extends StatelessWidget {
               ),
             ],
           ),
+          // child: Row()
         ),
       ),
     );

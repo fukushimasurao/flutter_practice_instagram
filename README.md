@@ -45,3 +45,7 @@ instagramの[ロゴ＋instagram]は左に、通話は右にしたいけどどう
 ## 画像を描く
 
 pubspec.yaml
+
+### 左右に分ける方法？
+
+<https://note.com/hatchoutschool/n/nff71c915e0af>
